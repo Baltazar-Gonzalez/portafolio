@@ -1,0 +1,93 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '../components/Header.astro';
+import Main from '../components/Main.astro';
+import Projects from '../components/Projects.astro';
+import Skills from '../components/Skills.astro';
+import Contact from '../components/Contact.astro';
+const lol = "lol"
+---
+
+<Layout title="Portafolio BG">
+	<Header/>
+	<Main />
+	<Projects/>
+	<Skills/>
+	<Contact/>
+	<div class="circle bg-sky-400 transition-transform duration-300 border-sky-400 w-5 h-5 2xl:w-6 2xl:h-6  sc"/>
+</Layout>
+
+<script>
+	const container = document.querySelector("body")
+	const circle = document.querySelector(".circle")
+
+	let lastY = 0
+	let lastX = 0
+	let lastScrollY = 0
+	let lastScrollX = 0
+
+	container.addEventListener("mousemove", e => {
+		
+		setTimeout(()=>{
+			lastY = e.clientY - 15
+			lastX = e.clientX - 15
+			circle.style.top = lastY + lastScrollY + "px"
+			if(e.clientX >= innerWidth - 9 || (innerWidth > 768 && e.clientX >= innerWidth - 37)){
+				return false
+			}else{
+				circle.style.left = lastX + lastScrollX  + "px"
+			}
+		}, 100)})
+
+	window.addEventListener("scroll", e => {
+		lastScrollY = scrollY
+		lastScrollX = scrollX
+		circle.style.top = lastScrollY + lastY + "px"
+		circle.style.left = lastScrollX + lastX + "px"
+		})
+
+	window.addEventListener("mousedown", e => {
+		circle.classList.remove("scale-100")
+		circle.classList.remove("bg-sky-400")
+		circle.classList.add("scale-150")
+		circle.classList.add("bg-transparent")
+		circle.classList.add("border-[1px]")
+		
+		})
+	
+	window.addEventListener("mouseup", e => {
+		circle.classList.remove("scale-150")
+		circle.classList.remove("bg-transparent")
+		circle.classList.remove("border-[1px]")
+		circle.classList.add("scale-100")
+		circle.classList.add("bg-sky-400")
+		})
+</script>
+<script>
+	const header = document.querySelector("#header")
+	const menu = document.querySelector("#menu")
+	var scrollPos = 0;
+
+	
+	window.addEventListener('scroll', e => {
+		console.log(scrollPos)
+	
+		if(menu.classList.contains("right-0")){
+			header.classList.add("top-0")
+		}else{
+			if ((document.body.getBoundingClientRect()).top > scrollPos)
+			{
+				console.log("up")
+				header.classList.add("top-0")
+				header.classList.remove("-top-full")
+			}
+			else
+			{
+				console.log("down")
+				header.classList.remove("top-0")
+				header.classList.add("-top-full")
+			}
+		}
+		scrollPos = (document.body.getBoundingClientRect()).top;
+	});
+</script>

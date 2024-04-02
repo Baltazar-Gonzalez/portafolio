@@ -1,0 +1,38 @@
+[
+    {
+        "title": "TreKIT Data Viewer",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "image": "./tk2.png",
+        "repository": "https://github.com/Baltazar-Gonzalez/Trekit",
+        "link": "https://trekitapp.netlify.app/",
+        "technologies": ["React", "-", "Tailwind"],
+        "id": 1
+    },
+    {
+        "title": "Ecoestudio Ecommerce",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "image": "./ecoestudio.png",
+        "repository": "https://github.com/Baltazar-Gonzalez/Ecoestudio",
+        "link": "https://ecoestudio.netlify.app/",
+        "technologies": ["React", "-", "Redux", "-", "Styled Components"],
+        "id": 2
+    },
+    {
+        "title": "Superheros Wiki",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "image": "./superhero.png",
+        "repository": "https://github.com/Baltazar-Gonzalez/SuperHeroes",
+        "link": "https://superheroswiki.netlify.app/",
+        "technologies": ["React", "-", "Styled Components", "-", "Node"],
+        "id": 3
+    },
+    {
+        "title": "Piedra, Papel y Tijeras",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+        "image": "./rockpaperscissors.png",
+        "repository": "https://github.com/Baltazar-Gonzalez/Rock-Paper-Sccisors",
+        "link": "https://rockpaperscissorsbg.netlify.app",
+        "technologies": ["React", "-", "Styled Components"],
+        "id": 4
+    }
+]

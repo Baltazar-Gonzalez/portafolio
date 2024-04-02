@@ -1,0 +1,86 @@
+[
+    {
+        "name": "React",
+        "logo": "./logos/React-icon.png",
+        "bgColor": "#066d89",
+        "textColor": "#ffffff"
+    },
+    {
+        "name": "Redux",
+        "logo": "./logos/redux-logo2.png",
+        "bgColor": "#764abc",
+        "textColor": "#ffffff"
+    },
+    {
+        "name": "Javascript",
+        "logo": "./logos/javascript-logo.png",
+        "bgColor": "#111",
+        "textColor": "#ffffff"
+    },
+    {
+        "name": "HTML",
+        "logo": "./logos/html-logo.png",
+        "bgColor": "#f06529",
+        "textColor": "#ffffff"
+    },
+    {
+        "name": "CSS",
+        "logo": "./logos/css-logo.png",
+        "bgColor": "#2965f1",
+        "textColor": "#ffffff"
+    },
+    {
+        "name": "Astro",
+        "logo": "./logos/astro-logo2.png",
+        "bgColor": "#000000",
+        "textColor": "#ffffff"
+    },
+    {
+        "name": "Tailwind CSS",
+        "logo": "./logos/tailwind-logo.png",
+        "bgColor": "#ffffff",
+        "textColor": "#000000"
+    },
+    {
+        "name": "Git",
+        "logo": "./logos/git-logo.png",
+        "bgColor": "#a61c00",
+        "textColor": "#ffffff"
+    },
+    {
+        "name": "Bootstrap",
+        "logo": "./logos/bootstrap-logo.png",
+        "bgColor": "#53558d",
+        "textColor": "#ffffff"
+    },
+    {
+        "name": "NodeJS",
+        "logo": "./logos/node-logo3.png",
+        "bgColor": "#7dbb44",
+        "textColor": "#ffffff"
+    },
+    {
+        "name": "MongoDB",
+        "logo": "./logos/mongodb-logo2.png",
+        "bgColor": "#001e2b",
+        "textColor": "#ffffff"
+    },
+    {
+        "name": "ExpressJS",
+        "logo": "./logos/express-logo.png",
+        "bgColor": "#525252",
+        "textColor": "#ffffff"
+    },
+    {
+        "name": "Socket.IO",
+        "logo": "./logos/socketio-logo.png",
+        "bgColor": "#ffffff",
+        "textColor": "#000000"
+    },
+    {
+        "name": "MySQL",
+        "logo": "./logos/mysql-logo2.png",
+        "bgColor": "#13a3c3",
+        "textColor": "#ffffff"
+    }
+]
