@@ -60,22 +60,28 @@
         "textColor": "#ffffff"
     },
     {
-        "name": "MongoDB",
-        "logo": "./logos/mongodb-logo2.png",
-        "bgColor": "#001e2b",
-        "textColor": "#ffffff"
-    },
-    {
         "name": "ExpressJS",
         "logo": "./logos/express-logo.png",
         "bgColor": "#525252",
         "textColor": "#ffffff"
     },
     {
-        "name": "Socket.IO",
-        "logo": "./logos/socketio-logo.png",
+        "name": "Sequelize",
+        "logo": "./logos/sequelize-logo.png",
         "bgColor": "#ffffff",
         "textColor": "#000000"
+    },
+    {
+        "name": "MongoDB",
+        "logo": "./logos/mongodb-logo2.png",
+        "bgColor": "#001e2b",
+        "textColor": "#ffffff"
+    },
+    {
+        "name": "Socket.IO",
+        "logo": "./logos/socketio-logo2.png",
+        "bgColor": "#000000",
+        "textColor": "#ffffff"
     },
     {
         "name": "MySQL",
